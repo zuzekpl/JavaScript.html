@@ -5,13 +5,29 @@ function okno_zamknij_zuzelski()
 {
 window.close()
 }
+ function WinOpen_zuzelski3()
+ {
+ window.open("grafika1.html","okienko1","toolbar=no,directories=no,menubar=no,height=180,width=120,top=100,left=100");
  }
+  function WinOpen_zuzelski4()
+  {
+ window.open("grafika2.html","okienko2","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+  }
+ function WinOpen_zuzelski5()
+ {
+ window.open("grafika3.html","okienko3","toolbar=no,directories=no,menubar=no,height=180,width=120,top=100,left=100");
+ }
+  function WinOpen_zuzelski6()
+  {
+ window.open("grafika4.html","okienko4","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+  }
 </script>
 </head>
 <body>  
- <a href="grafika1.html" target="_self">kurs html</a>
- <a href="grafika2.html" target="_self">kurs html</a>
- <a href="grafika3.html" target="_self">kurs html</a>
- <a href="grafika4.html" target="_self">kurs html</a>
+   <input type="button" name="przycisk" value="grafika1" onclick="WinOpen_zuzelski3(' ')">
+   <input type="button" name="przycisk" value="grafika2" onclick="WinOpen_zuzelski4(' ')">
+   <input type="button" name="przycisk" value="grafika3" onclick="WinOpen_zuzelski5(' ')">
+   <input type="button" name="przycisk" value="grafika4" onclick="WinOpen_zuzelski6(' ')">
+
 </body>
 </html>
