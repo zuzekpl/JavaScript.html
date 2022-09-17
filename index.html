@@ -3,18 +3,21 @@
  <title>Przykład nr 1 </title>
 
  <script language="JavaScript">
- function WinOpen_zuzelski()
+ function WinOpen_zuzelski1()
  {
-window.open("obraz.html","okienko1","toolbar=no,directories=no,menubar=no,height=180,width=120,top=100,left=100");
-window.open("zadanie2.html","okienko2","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+ window.open("obraz.html","okienko1","toolbar=no,directories=no,menubar=no,height=180,width=120,top=100,left=100");
  }
+  function WinOpen_zuzelski2()
+  {
+ window.open("zadanie2.html","okienko2","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+  }
  </script>
  </head>
 <body>
  <SUP><size="2cm" align="center">Zuzelski</SUP>
  <form>
- <input type="button" name="przycisk" value="Zadanie nr.1" onclick="WinOpen_zuzelski('okienko1')">
- <input type="button" name="przycisk" value="Zadanie nr.2" onclick="WinOpen_zuzelski('okienko2')">
+ <input type="button" name="przycisk" value="Zadanie nr.1" onclick="WinOpen_zuzelski1('')">
+ <input type="button" name="przycisk" value="Zadanie nr.2" onclick="WinOpen_zuzelski2('')">
  </form>
 </body>
 </html>
