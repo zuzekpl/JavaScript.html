@@ -1,0 +1,37 @@
+<textarea name="nazwa" cols="25" rows="25" readonly><html>
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_zuzelski()
+{
+window.close()
+}
+ function WinOpen_zuzelski3()
+ {
+ window.open("grafika1.html","okienko3","toolbar=no,directories=no,menubar=no,height=400,width=100,bottom=300,right=300");
+ }
+  function WinOpen_zuzelski4()
+ {
+ window.open("grafika2.html","okienko4","toolbar=no,directories=no,menubar=no,height=400,width=100,bottom=300,left=900");
+ }
+ function WinOpen_zuzelski5()
+ {
+ window.open("grafika3.html","okienko5","toolbar=no,directories=no,menubar=no,height=400,width=100,top=300,right=300");
+ }
+  function WinOpen_zuzelski6()
+  {
+ window.open("grafika4.html","okienko6","toolbar=no,directories=no,menubar=no,height=400,width=100,top=300,left=900");
+  }
+</script>
+</head>
+<body>  
+ <form>
+   <input type="button" name="przycisk" value="grafika1" onclick="WinOpen_zuzelski3(' ')">
+   <input type="button" name="przycisk" value="grafika2" onclick="WinOpen_zuzelski4(' ')">
+   <input type="button" name="przycisk" value="grafika3" onclick="WinOpen_zuzelski5(' ')">
+   <input type="button" name="przycisk" value="grafika4" onclick="WinOpen_zuzelski6(' ')">
+  <input type="button" value="zamknij okno" onclick="okno_zamknij_zuzelski()"/>
+ </form>
+</body>
+</html>
+</textarea>
