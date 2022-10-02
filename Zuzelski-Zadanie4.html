@@ -1,1 +1,20 @@
-﻿
+<html>
+ <head>
+   <title>Alert Box</title>
+ <script type="text/javascript"> function show_alert() { alert("Uwaga!"); } </script>
+   <script type="text/javascript">
+function okno_zamknij_zuzelski()
+{
+window.close()
+}
+     </script>
+ </head>
+<body>
+  <b>Zastosowanie:</b><br>
+Jest używany do przekazywania informacji użytkownikowi. Użytkownik musi nacisnąć ok. aby
+potwierdził jej przeczytanie. 
+ <input type="button" onclick="show_alert()" value="Pokaż Alert Box" />
+ <input type="button" value="zamknij okno" onclick="okno_zamknij_zuzelski()"/>
+</body>
+</html> 
+   
