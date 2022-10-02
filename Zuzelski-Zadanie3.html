@@ -1,3 +1,62 @@
 <html>
- <head>
- <title>Zadanie teoretyczne</title>
+<head>
+<title>Zadanie teoretyczne</title>
+<script type="text/javascript">
+function okno_zamknij_zuzelski()
+{
+window.close()
+}
+ </script>
+ </head>
+ <body>
+<ol type="1">
+ <li>Rodzaje okienek:</li>
+<ul>
+ <li>Okienko <b>alert</b> – wyświetlająca okienko dialogowe z informacją i przyciskiem OK.</li>
+ <li>Okienko <b>prompt</b> – generująca okno, w którym użytkownik może wpisać wartość, zwracaną
+   następnie do programu.</li>
+ <li>Okienko <b>confirm</b> służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm).</li>
+</ul>
+ <li>Konwersji liczb:</li>
+ <b>Konwersji zmiennych</b><br>
+ Wczytanie zmiennej z użyciem <b>prompt</b> wykonywane jest jako ciąg znaków dlatego konieczna jest
+konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia.<br>
+ 
+ <u>parseFloat(zmienna)</u> - konwersja zmiennej do typu float<br>
+ <u>parseInt(zmienna)</u> - konwersja zmiennej do typu int (liczbowego)<br>
+ <u>toString(zmienna)</u> - konwersja zmiennej do typu łańcuchowego<br>
+ 
+ <li>Typy zmiennych w Javascript</li>
+ W JavaScript nie ma możliwości definiowania różnych typów zmiennych tak jak w C++, typy
+zmiennych są definiowane w trakcie ich przypisywania.
+Podstawowe zmienne liczbowe w JavaScript to: <br>
+Number &#10132; Typ liczbowy
+ <ul>
+  <li>zmienna całkowite</li>
+  <li>zmiennoprzecinkowe</li>
+ </ul>
+String  &#10132; Typ tekstowy
+Boolea  &#10132; Typ logiczny
+Null  &#10132; Pusta zawartość
+Undefined  &#10132; Typ niezidentyfikowany
+Object  &#10132; Obiekt
+ <li>Przy nadawaniu nazw zmiennym należy przestrzegać pewnych zasad:</li>
+ <ol type="1">
+  <li>Nazwa zmiennej musi się zaczynać od litery, znaku "$" lub "_", może zawierać tylko litery (bez
+   polskich znaków), cyfry oraz "$" i "_".<br>
+   <u>Poprawne nazwy zmiennych:</u> zmienna1, $wynik, _rozmiar, wynik1, Rekord, $_gracz<br>
+   <u>Błędne nazwy zmiennych:</u> 1zmienna, wynik gry, wysokosc&szerokosc, wynik.rekord, &gracz,
+   wysokość, imie+nazwisko<br>
+  </li>
+  <li>
+   Wielkość liter ma znaczenie. <br>
+   <u>Rekord i rekord</u> to dwie różne zmienne! Jest to bardzo częsta przyczyna błędów w kodzie
+   początkujących programistów.
+  </li>
+  <li>
+   Należy nie używać słów kluczowych JavaScript jako nazw zmiennych.
+  </li>
+  </li>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_zuzelski()"/>
+ </body>
+  </html>
