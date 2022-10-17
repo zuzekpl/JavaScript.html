@@ -1,0 +1,14 @@
+zadanie 13a
+dany jest trojkat prostokatny.wczytac przeciw prostok¹tna c_zuz oraz przeciwprostokatna b_zuz.
+wykonac
+wypisac czytane dane 2 miejsca po przecinku z jednostka cm 
+wielkosc 13mm kolor fioletowy
+ b
+Oblicz przeciw prostok¹tn¹ (2 miejsca po przecinku jednostka)
+c
+obwod z jednostka oblicz
+d
+pole z jednostka, wysokosci z jednostkami
+katy trojkata wyrazone w stopniach
+wszystkie funkcje trygonometryczne (trzy miejsca po przecinku)
+uzyj modulu .Math
