@@ -8,9 +8,19 @@ var liczba2=prompt("b=","");
 var c_zuz=parseFloat(liczba1);
 var b_zuz=parseFloat(liczba2);
  
+var a_zuz=Math.sqrt(Math.pow(c_zuz,2)-Math.pow(b_zuz,2));
 document.write("c="+c_zuz.toFixed(2)+" cm"+"<br>");
 document.write("b="+b_zuz.toFixed(2)+" cm"+"<br>");
+document.write("a="+a_zuz.toFixed(2)+" cm"+"<br>");
+ var h1=a_zuz;
+ var h3=(a_zuz*b_zuz)/c_zuz;
+document.write("h3="+h3.toFixed(2)+" cm"+"<br>");
+sin_alfa=b_kow/c_kow;
+document.write("sin(alfa)="+sin_alfa.toFixed(3)+" <br>");
+alfa=Math.asin(b_zuz/c_zuz)*(180/math.PI);
+document.write("alfa="+alfa.toFixed(2)+" st"+"<br>");
 </script>
 </div>
 </body>
 </html>
+180 instrukcja 
