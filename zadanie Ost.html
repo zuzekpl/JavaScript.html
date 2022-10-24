@@ -1,0 +1,67 @@
+<html>
+<body>
+<div style="color:red; font-size:45px;">
+<script language="JavaScript">
+var c=prompt("c=","");
+var b=prompt("b=","");
+var c_ost=parseFloat(c);
+var b_ost=parseFloat(b);
+var apif_ost;
+var a_ost;
+var p_ost; 
+var Ob_ost;
+var h3_ost;
+var sinalfa_ost;
+var cosalfa_ost;
+var tgaalfa_ost;
+var ctgalfa_ost; 
+var alfa_ost;
+var beta_ost;
+var fixa_ost;
+var fixp_ost;
+var fixob_ost;
+var fixh3_ost;
+var fixsin_ost;
+var fixcos_ost;
+var fixtg_ost;
+var fixctg_ost;
+var fixalfa_ost;
+var fixbeta_ost;
+apif_ost = Math.pow(c_ost, 2) - Math.pow(b_ost, 2);
+a_ost = Math.sqrt(apif_ost)
+fixa_ost = a_ost.toFixed(3);
+P_ost = (a_ost*b_ost)/2;
+fixp_ost = P_ost.toFixed(3);
+Ob_ost = a_ost+b_ost+c_ost;
+fixob_ost = Ob_ost.toFixed(3);
+h3_ost = (a_ost*b_ost)/c_ost;
+fixh3_ost = h3_ost.toFixed(3);
+sinalfa_ost = a_ost/c_ost;
+fixsin_ost = sinalfa_ost.toFixed(3);
+cosalfa_ost = b_ost/c_ost;
+fixcos_ost = cosalfa_ost.toFixed(3);
+tgalfa_ost = a_ost/b_ost;
+fixtg_ost = tgalfa_ost.toFixed(3);
+ctgalfa_ost = b_ost/a_ost;
+fixctg_ost = ctgalfa_ost.toFixed(3);
+alfa_ost = (Math.asin(sinalfa_ost) * 180) / Math.PI;
+fixalfa_ost = alfa_ost.toFixed(3);
+beta_ost = 180 - (90 + alfa_ost);
+fixbeta_ost = beta_ost.toFixed(3)
+document.write("a = "+fixa_ost+"<br>");
+document.write("Pole = "+fixp_ost+"<br>");
+document.write("Obwod = "+fixob_ost+"<br>");
+document.write("h1 = "+fixa_ost+"<br>");
+document.write("h2 = "+b_ost+"<br>");
+document.write("h3 = "+fixh3_ost+"<br>");
+document.write("sin = "+fixsin_ost+"<br>");
+document.write("cos = "+fixcos_ost+"<br>");
+document.write("tg = "+fixtg_ost+"<br>");
+document.write("ctg = "+fixctg_ost+"<br>");
+document.write("alfa = "+fixalfa_ost+"<br>");
+document.write("beta = "+fixbeta_ost+"<br>");
+document.write("gamma = "+90+"<br>");
+</script>
+</div>
+</body>
+</html>

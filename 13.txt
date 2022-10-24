@@ -1,0 +1,20 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+ var liczba1=
+prompt("podaj pierwsz¹ liczbê=","");
+ var liczba2=
+prompt("podaj drug¹ liczbê=","")
+
+var a_z=parseFloat(liczba1);
+var b_z=parseFloat(liczba2);
+
+document.write("wczytane liczby"+"<br>");
+document.write("A="+a_z+" B="+b_z+"<br>");
+document.write("("+a_z+" +"+b_z+")^3=");
+document.write(+a_z+"^3"+"+3*"+a_z+"^2"+"*"+b_z);
+</script>
+</div>
+</body>
+</html>
