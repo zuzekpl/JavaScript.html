@@ -1,1 +1,26 @@
-﻿
+<html>
+<head>
+<form><textarea name="nazwa" cols="30" rows="40" readonly><html>
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+ <script language="JavaScript">
+  var liczba1=prompt("dzień1=","");
+  var liczba2=prompt("dzień2=","");
+  var liczba3=prompt("godzina1=","");
+  var liczba4=prompt("godzina2=","");
+  var ile_sekund_zuz;
+  var D1_zuz=parseFloat(liczba1);
+  var D2_zuz=parseFloat(liczba2);
+  var G1_zuz=parseFloat(liczba3);
+  var G2_zuz=parseFloat(liczba4);
+ ile_sekund_zuz=(D1_zuz-D2_zuz-G1_zuz-G2_zuz)*24*3600;
+document.write("sekundy="+ile_sekund_zuz+" s"+"<br>");
+document.write("dz1="+D1_zuz+"<br>");
+document.write("dz2="+D2_zuz+"<br>");
+document.write("go1="+G1_zuz+"<br>");
+document.write("go2="+G2_zuz+"<br>");
+ </script>
+</div>
+</body>
+</html>
