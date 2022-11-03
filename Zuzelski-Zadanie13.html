@@ -1,26 +1,38 @@
 <html>
 <body>
-<div style="color:red;font-size:50px;">
+<div style="color:purple;font-size:13mm;">
 <script language="JavaScript">
 var liczba1=prompt("c=","");
 var liczba2=prompt("b=","");
-
 var c_zuz=parseFloat(liczba1);
 var b_zuz=parseFloat(liczba2);
- 
 var a_zuz=Math.sqrt(Math.pow(c_zuz,2)-Math.pow(b_zuz,2));
-document.write("c="+c_zuz.toFixed(2)+" cm"+"<br>");
-document.write("b="+b_zuz.toFixed(2)+" cm"+"<br>");
-document.write("a="+a_zuz.toFixed(2)+" cm"+"<br>");
- var h1=a_zuz;
- var h3=(a_zuz*b_zuz)/c_zuz;
-document.write("h3="+h3.toFixed(2)+" cm"+"<br>");
-sin_alfa=b_kow/c_kow;
-document.write("sin(alfa)="+sin_alfa.toFixed(3)+" <br>");
-alfa=Math.asin(b_zuz/c_zuz)*(180/math.PI);
-document.write("alfa="+alfa.toFixed(2)+" st"+"<br>");
+document.write("c="+c_zuz.toFixed(2)+"cm"+"<br>");
+document.write("b="+b_zuz.toFixed(2)+"cm"+"<br>");
+document.write("a="+a_zuz.toFixed(2)+"cm"+"<br>");
+var h1=a_zuz;
+var h2=b_zuz;
+var h3=(a_zuz*b_zuz)/c_zuz;
+document.write("h1="+h1.toFixed(2)+"cm"+"<br>");
+document.write("h2="+h2.toFixed(2)+"cm"+"<br>");
+document.write("h3="+h3.toFixed(2)+"cm"+"<br>");
+var sin_alfa=a_zuz/c_zuz;
+var cos_alfa=b_zuz/c_zuz;
+var tangens_alfa = a_zuz/b_zuz;
+var cotangens_alfa = b_zuz/a_zuz;
+document.write("sin alfa="+sin_alfa.toFixed(3)+"<br>");
+document.write("cos alfa="+cos_alfa.toFixed(3)+"<br>");
+document.write("tg alfa="+tangens_alfa.toFixed(3)+"<br>");
+document.write("ctg alfa="+cotangens_alfa.toFixed(3)+"<br>");
+var beta=Math.asin(b_zuz/c_zuz)*(180/Math.PI);
+var alfa=90-beta;
+document.write("alfa="+alfa.toFixed(3)+"st"+"<br>");
+document.write("beta="+beta.toFixed(3)+"st"+"<br>");
+var obwod=a_zuz+b_zuz+c_zuz;
+document.write("obwod="+obwod.toFixed(2)+"cm"+"<br>");
+var pole=b_zuz*a_zuz/2;
+document.write("pole="+pole.toFixed(2)+"cm"+"<br>");
 </script>
 </div>
 </body>
 </html>
-180 instrukcja 
