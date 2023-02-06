@@ -1,0 +1,50 @@
+<html>
+<head>
+<form><textarea name="nazwa" cols="30" rows="40" readonly>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zuzelski-71</title>
+<meta charset="utf-8">
+</head>
+<body>
+<script>
+var a_zuz=7;
+var b_zuz=21;
+for(let a=0;a<b_zuz;a++)
+{
+document.write("*")
+}
+document.write("<br>")
+var c_zuz=b_zuz-2
+for(var a=0;a<a_zuz;a++)
+{
+if(a == 0 || a_zuz-1)
+{
+document.write("*")
+if(c_zuz == 0)
+{
+document.write("<br>")
+a_zuz--;
+c_zuz=b_zuz;
+continue;
+}
+else if(c_zuz>0)
+{
+document.write("&nbsp&#160")      
+c_zuz--;
+a=1;    
+}
+}
+document.write("*<br>")
+}
+for(let a=0;a<b_zuz;a++)
+{
+document.write("*")
+}
+</script>
+</body>
+</html>
+</textarea>
+  </body>
+  </html>
