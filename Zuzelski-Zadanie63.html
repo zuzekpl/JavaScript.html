@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Zuzelski-63</title>
+</head>
+<body>
+
+
+<p style="color:green;"><b>Menu</b></p>
+<br>
+<p style="color:red;"><b>1-czerwony</b></p>
+<p style="color:blue;"><b>2-niebieski</b></p>
+<button type="submit" value="Wczytaj" onclick="Wczytaj()">Oblicz</button><br>
+<p id="wynik"></p>
+<script>
+function Wczytaj()
+{
+x=prompt("Podaj Kolor");
+wynik=document.getElementById("wynik");
+if(x == 1 ||  x.toLowerCase() ===  "czerwony")
+{
+wynik.style.color = "red";
+wynik.style.fontSize = "7cm";
+wynik.innerHTML = "wczytałeś kolor czerwony";
+
+
+}
+else if(x == 2 ||  x.toLowerCase() ===  "niebieski")
+{
+wynik.style.color = "blue";
+wynik.style.fontSize = "1cm";
+wynik.innerHTML = "wczytałeś kolor niebieski";
+}
+
+
+else{
+wynik.style.color = "black";
+wynik.style.fontSize = "1cm";
+wynik.innerHTML = "niepoprawny kolor";
+}
+
+
+}       
+</script>
+</body>
+</html>
