@@ -1,24 +1,32 @@
 ﻿<!DOCTYPE html>
 <html lang="pl">
 <head>
+<title>Zuzelski-72</title>
 <meta charset="utf-8">
+</head>
 <title> Przykład użycia pętli </title>
 <script language="JavaScript">
 //obliczone z treści zadania
-for (var i=1; i<=9; i++)
+const a_zuz=7;
+const b_zuz=21;
+for(let a=0;a<b_zuz;a++)
 {
-document.write("*");
+document.write("*")
 }
-document.write("<br>");
-for (var i =1; i<=(7-2); i++)
+document.write("<br>")
+for(var a=0;a<a_zuz;a++)
 {
-document.write("*&nbsp&nbsp&nbsp&nbsp&nbsp*");
-dcoument.write("<br>");
-}
-for (var i=1; i<=9; i++)
+document.write("*")
+for(let b=0;b<b_zuz-2;b++)
 {
-document.write("*");
+document.write("&nbsp&#160")
 }
-document.write("<br>");
+document.write("*<br>")
+}
+for(let a=0;a<b_zuz;a++)
+{
+document.write("*")
+}
 </script>
+</body>
 </html>
