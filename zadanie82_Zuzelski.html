@@ -1,0 +1,30 @@
+﻿<html>
+<head>
+<title> Zadanie 82-Zuzelski</title>
+ <script language="JavaScript">
+ function pushbutton() {
+ alert("Czesc !");}
+ </script>
+</head>
+<body>
+<h1>Zuzelski</h1>
+dzis = new Date()--> zwraca dzień miesiąca (wartość z przedziału 1 - 31) <br>
+dzis = dzis.getHours()--> zwraca aktualną godzinę (wartość z przedziału 0 - 23) <br>
+dzis = dzis.getMinutes()--> zwraca minuty (wartość z przedziału 0 - 59) <br>
+dzis = dzis.getMonth()--> zwraca aktualny miesiąc (0 - styczeń, 1 - luty itp.) <br>
+dzis = dzis.getDate()-->  zwraca dzień tygodnia (0 dla niedzieli, 1 dla poniedziałku, 2 dla wtorku itd) <br>
+dzis = dzis.getFullYear()--> zwraca pełną liczbę reprezentującą rok (np. 1999 lub 2000) <br>
+Ostatnio zmodyfikowany
+<script language="LiveScript">
+ document.write(document.lastModified,"<br>")
+</script>
+<form>
+ <input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form>
+<script language="JavaScript">
+ dzis = new Date()
+ document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+ document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
+</script>
+</body>
+</html>
