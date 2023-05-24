@@ -11,7 +11,7 @@
 <meta charset="utf-8">
 <title> Zadanie 83-Zuzelski </title>
 <script language="JavaScript">
-function dni_zuzelski(dzien,miesiac,rok) 
+function dni_zuze(dzien,miesiac,rok) 
 {
 d_liczba=parseFloat(dzien) 
 m_liczba=parseFloat(miesiac)
@@ -23,7 +23,6 @@ var czyMiesiac;
 var czyDzien;
 ilosc_wynik=Math.floor((dzis-urodziny)/(1000*60*60*24));
 document.getElementsByName('ilosc')[0].value=ilosc_wynik;
-alert(6466);
 pokaz1.innerHTML="Ilość dni="+ilosc_wynik+" dni"+"<br>";
 czyRok = dzis.getFullYear();
 czyMiesiac = dzis.getMonth();
