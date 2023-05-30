@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TEMAT 4 Zuzelski</title>
+<link rel="stylesheet" href="background.css">
+<script language="JavaScript">
+function setfocus()
+ {
+ document.zero.txt0.focus(); return;
+ }
+ function test0(form)
+ {
+ if (form.txt0.value == "")
+ {
+ alert("Podaj ciąg znaków!")
+ }
+ else
+ {
+ alert("Cześć "+form.txt0.value+" ! Informacja poprawna!");
+ }
+ }
+
+ {
+ document.jeden.txt1.focus(); return;
+ }
+ function test1(form)
+ {
+ if (form.txt1.value == "")
+ {
+ alert("Podaj ciąg znaków!")
+ }
+ else
+ {
+ alert("Cześć "+form.txt1.value+" ! Informacja poprawna!");
+ }
+ }
+
+function test2(form)
+function validatetel(tel) {
+    var reg = '/^[0-9\+]{8,13}$/';
+    if(!reg.test(tel)) 
+        return false;
+    else
+        return true;
+}
+
+ function test3(form)
+ {
+ if (form.txt3.value == "" || form.txt2.value.indexOf('@', 0) == -1)
+ {
+ alert("Niepoprawny adres poczty elektronicznej!");
+ }
+ else
+ {
+ alert("OK!");
+ }
+ }
+</script>
+</head>
+<body>
+<h1><b> Lodziarnia u PEPPY </b></h1>
+<div><span class="lewa">
+
+
+<body onLoad="setfocus()">
+<h3> Dane klienta </h3>
+<form name="zero">
+ Wpisz swoje imię:<br>
+ <input type="text" name="txt0" minlength="4">
+</form>
+
+<form name="jeden">
+  Wpisz swoje nazwisko:<br>
+ <input type="text" name="txt1" minlength="4">
+</form>
+
+<form name="dwa">
+Podaj numer telefonu:<br>
+<input type="text" name="txt2">
+</form>
+
+<form name="trzy">
+Wpisz adres swojej poczty elektronicznej:<br>
+<input type="text" name="txt3">
+</form>
+
+<form name="cztery">
+Podaj miasto:<br>
+<input type="text" name="txt4">
+</form>
+
+<form name="piec">
+Adres zamieszkania:<br>
+<input type="text" name="txt5">
+</form>
+</span>
+
+<IMG class="displayed" src="pepunia.png" alt="...">
+
+
+<span class="prawa">
+<h3>Zamówienie</h3>
+Rodzaj podania:
+<select>
+  <option>Wafelek-rożek</option>
+  <option>Wafelek-kubeczek</option>
+  <option>Kubeczek</option>
+</select>
+<h4>Cena za jedną gałkę 4zł</h4>
+Podaj ilość gałek:<br>
+<input name="Gałki">
+<br>
+Smaki:<br>
+<select>
+  <option value="Truskawkowy">Truskawkowy</option>
+  <option value="Czekoladowy">Czekoladowy</option>
+  <option value="Śmietankowy">Śmietankowy</option>
+  <option value="Grejpfrut">Grejpfrut</option>
+  <option value="Miętowe">Miętowe</option>
+  <option value="Słony karmel">Słony karmel</option>
+  <option value="Oreo">Oreo</option>
+  <option value="Orzech włoski">Orzech włoski</option>
+  <option value="Cytrynowe">Cytrynowe</option>
+  <option value="Waniliowe">Waniliowe</option>
+</select>
+<br>
+ Napoje:<br>
+<select>
+  <option value="Kawa">Kawa</option>
+  <option value="Herbata">Herbata</option>
+  <option value="Woda">Woda</option>
+  <option value="Cola">Cola</option>
+  <option value="Pepsi">Pepsi</option>
+</select>
+<br>
+Dodatki:<br>
+<select>
+  <optgroup label="Posypka">
+    <option>KitKat</option>
+    <option>Oreo</option>
+    <option>Lion</option>
+  </optgroup>
+  <optgroup label="Bita smietana">
+    <option>Zwykła</option>
+    <option>Cytrynowa</option>
+<optgroup label="Wafelek">
+    <option>Rurka</option>
+    <option>Kwadrat</option>
+<optgroup label="Owoce">
+    <option>Borówki</option>
+    <option>Truskawki</option>
+<optgroup label="Polewa">
+    <option>Czekoladowa</option>
+    <option>Mango</option>
+<optgroup label="Orzechy">
+    <option>Włoskie</option>
+    <option>Pistacje</option>
+  </optgroup>
+</select>
+
+<b>Podaj rabat:</b><br>
+rabat 0% <input type="radio" name="wybor" value=0 /><br><br>
+rabat 10% <input type="radio" name="wybor" value=10 /><br><br>
+rabat 20% <input type="radio" name="wybor" value=20 /><br><br>
+<b>Podaj VAT:</b><br>
+wybierz VAT<select name="vat"/>
+<option value="0"> 0%
+<option value="7"> 7%
+<option value="23"> 23%
+</select><br><br>
+<b>Podaj opcje dodatkowe:</b><br>
+Karta klienta &nbsp&nbsp&nbsp5%<input type="checkbox" name="ubezpieczenie" value=0
+/><br>
+<form method=post action="mailto:dowolny@mail.pl"> <br>
+ <input name="submit" type="submit" value="Potwierdź zamówienie">
+</span></div>
+</form>
+</body>
+</html>

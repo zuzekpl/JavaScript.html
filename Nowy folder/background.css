@@ -1,0 +1,31 @@
+body
+{
+width: 50%
+height: 50vh;
+background-image: url(lodziarnia.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+text-algin: center;
+}
+h1
+{
+font-family: "Segoe Script", cursive; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+text-align: center;
+ border: 8px solid black;
+}
+.lewa 
+{
+float:left; display:inline
+}
+.prawa 
+{
+float:right;display:inline
+}
+img 
+{
+    position: relative;
+    padding: 0px;
+    text-align: center;
+    margin-left:160px; // działa
+    text-align:center;
+}
